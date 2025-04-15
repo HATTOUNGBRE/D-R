@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest # environnement 
     steps:  
       - run: echo "Hello-Shantou!" 
-  say-goodbye:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Goodbye Shantou"
+  build:
+   runs-on: ubuntu-latest
+   steps: 
+     - run: ls
+     - uses: actions/checkout@v4.2.2
+     - run: ls
