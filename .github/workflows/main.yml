@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest # environnement 
     steps:  
       - run: echo "Hello-Shantou!" 
+  say-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Goodbye Shantou"
