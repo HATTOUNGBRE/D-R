@@ -1,0 +1,7 @@
+name: Mon super workflow
+on: [push] # action évènement
+jobs: 
+  say-hello: # nom du job
+    runs-on: ubuntu-latest # environnement 
+    steps:  
+      - run: echo "Hello-Shantou!" 
